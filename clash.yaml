@@ -71,466 +71,628 @@ dns:
   - https://doh.pub/dns-query
   - https://dns.alidns.com/dns-query
 proxies:
-- down: '200'
-  name: 127.0.0.1_OpenAI_Claude1
-  password: 5fcc5cce-b0f1-41cc-a4be-63805d2fe7b5
-  port: 443
-  server: alipay-api-nl-a-1.testred.xyz
-  sni: alipay-api-nl-a-1.testred.xyz
-  type: hysteria2
-  up: '200'
-- down: '100'
-  name: 127.0.0.1_OpenAI_Claude2
-  password: ffd959d0-b3a7-4a13-a71f-45961107065e
-  port: 443
-  server: uk-001.xiaoxiaobujidao.xyz
-  sni: uk-001.xiaoxiaobujidao.xyz
-  type: hysteria2
-  up: '100'
-- cipher: aes-256-gcm
-  name: 127.0.0.1_OpenAI_Claude3
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.114.114.69
-  type: ss
-- cipher: aes-256-cfb
-  name: 218.237.185.230_OpenAI_Claude
-  password: qwerREWQ@@
-  port: 31066
-  server: 218.237.185.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 221.139.79.20_OpenAI
-  password: qwerREWQ@@
-  port: 51199
-  server: 221.139.79.20
-  type: ss
-- cipher: aes-256-cfb
-  name: 221.139.79.41_OpenAI_Claude
-  password: qwerREWQ@@
-  port: 6435
-  server: 221.139.79.41
-  type: ss
-- flow: xtls-rprx-vision
-  name: DE_Düsseldorf_WIIT AG_OpenAI_Claude
-  network: tcp
-  port: 443
-  server: 45.134.50.233
-  servername: bingo.107421.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a681ef0-cb4b-4768-9553-49acb7b9a1ad
-- down: '200'
-  name: DE_Nuremberg_DASABO OU_OpenAI_Claude
-  password: 5fcc5cce-b0f1-41cc-a4be-63805d2fe7b5
-  port: 443
-  server: alipay-api-de-a-1.testred.xyz
-  sni: alipay-api-de-a-1.testred.xyz
-  type: hysteria2
-  up: '200'
-- name: FR_Paris_Amazon Technologies Inc._OpenAI_Claude
+- name: 15.237.167.219_OpenAI
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 15.237.172.59
+  server: 15.237.167.219
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: FR_Paris_Redheberg SAS_OpenAI_Claude
-  password: 5fcc5cce-b0f1-41cc-a4be-63805d2fe7b5
-  port: 443
-  server: alipay-api-fr-a-1.testred.xyz
-  sni: alipay-api-fr-a-1.testred.xyz
+- name: 213.35.120.43_OpenAI_Claude
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 23543
+  server: sg3.xiaoliyu.cyou
+  sni: sg3.xiaoliyu.cyou
   type: hysteria2
-- down: '100'
-  name: GB_London_BrainStorm Network, Inc_OpenAI_Claude
-  password: dbe19046-739b-4e39-997c-0da106412b3b
-  port: 443
-  server: uk-001.xiaoxiaobujidao.xyz
-  sni: uk-001.xiaoxiaobujidao.xyz
+- cipher: aes-256-gcm
+  name: 38.114.123.245_OpenAI_Claude
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.114.123.245
+  type: ss
+- name: AU_Sydney_DigitalOcean, LLC_OpenAI_Claude
+  network: tcp
+  port: 8445
+  reality-opts:
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+  server: at.parsroute.net
+  servername: ftp.debian.org
+  tls: true
+  type: vless
+  uuid: 672b4d6e-46f8-48db-90f5-003d90cb211c
+- name: BR_São Paulo_Cloudflare, Inc._OpenAI_Claude1
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 23516
+  server: br1.xiaoliyu.cyou
+  sni: br1.xiaoliyu.cyou
   type: hysteria2
-  up: '100'
+- name: BR_São Paulo_Cloudflare, Inc._OpenAI_Claude2
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 22941
+  server: br1.xiaoliyu.cyou
+  sni: br1.xiaoliyu.cyou
+  type: hysteria2
+- name: BR_São Paulo_Cloudflare, Inc._OpenAI_Claude3
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 23016
+  server: br1.xiaoliyu.cyou
+  sni: br1.xiaoliyu.cyou
+  type: hysteria2
+- name: DE_Nuremberg_powered by ANX_OpenAI_Claude1
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 26651
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- name: DE_Nuremberg_powered by ANX_OpenAI_Claude2
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 25180
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- name: DE_Nuremberg_powered by ANX_OpenAI_Claude3
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 22508
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- name: DE_Nuremberg_powered by ANX_OpenAI_Claude4
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24079
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- name: DE_Nuremberg_powered by ANX_OpenAI_Claude5
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24270
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- name: DE_Nuremberg_powered by ANX_OpenAI_Claude6
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 24805
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- name: DE_Nuremberg_powered by ANX_OpenAI_Claude7
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 26458
+  server: de1.xiaoliyu.cyou
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: EE_Tallinn_RJ Network OU_Claude
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.193.49.88
+  type: ss
+- name: ES_Madrid_Oracle Corporation_OpenAI_Claude1
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 22813
+  server: es1.xiaoliyu.cyou
+  sni: es1.xiaoliyu.cyou
+  type: hysteria2
+- name: ES_Madrid_Oracle Corporation_OpenAI_Claude2
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 26479
+  server: es1.xiaoliyu.cyou
+  sni: es1.xiaoliyu.cyou
+  type: hysteria2
+- name: ES_Madrid_Oracle Corporation_OpenAI_Claude3
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 26326
+  server: es1.xiaoliyu.cyou
+  sni: es1.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._Claude1
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 26063
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._Claude2
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 22490
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._OpenAI_Claude1
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 22248
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._OpenAI_Claude2
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 26852
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._OpenAI_Claude3
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 24955
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._OpenAI_Claude4
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 22954
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._OpenAI_Claude5
+  password: 99715951-122e-44dd-87fa-6b1621ca386a
+  port: 22334
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._OpenAI_Claude6
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 24571
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Cloudflare, Inc._OpenAI_Claude7
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 22139
+  server: fr2.xiaoliyu.cyou
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Oracle Corporation_OpenAI_Claude1
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24102
+  server: fr3.xiaoliyu.cyou
+  sni: fr3.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Oracle Corporation_OpenAI_Claude2
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23867
+  server: fr3.xiaoliyu.cyou
+  sni: fr3.xiaoliyu.cyou
+  type: hysteria2
+- name: FR_Paris_Oracle Corporation_OpenAI_Claude3
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 25361
+  server: fr3.xiaoliyu.cyou
+  sni: fr3.xiaoliyu.cyou
+  type: hysteria2
+- name: GB_London_Amazon Technologies Inc._Claude
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.42.152.164
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: GB_London_Amazon Technologies Inc._OpenAI_Claude
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /LwW5jwrnymnOdqki?ed=2560
+- name: IE_Dublin_HostPapa_OpenAI_Claude1
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 25465
+  server: gb1.xiaoliyu.cyou
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- name: IE_Dublin_HostPapa_OpenAI_Claude2
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 25570
+  server: gb1.xiaoliyu.cyou
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: JP_Shinagawa_The Constant Company_OpenAI_Claude
+  network: http
+  port: 80
+  server: 45.77.178.67
+  type: vmess
+  uuid: 3c6997bf-2dbd-5bc4-86a6-eda5e3ded573
+- alterId: 0
+  cipher: auto
+  name: JP_Togoshi_The Constant Company_OpenAI_Claude
+  network: http
+  port: 80
+  server: 45.77.178.67
+  type: vmess
+  uuid: 88318913-de82-5d57-95b7-cdb968049340
 - cipher: aes-256-cfb
   name: JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude1
   password: amazonskr05
   port: 443
-  server: 18.181.199.99
+  server: 13.231.248.146
   type: ss
 - cipher: aes-256-cfb
   name: JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude2
   password: amazonskr05
   port: 443
-  server: 18.183.217.250
+  server: 52.197.129.53
   type: ss
 - cipher: aes-256-cfb
   name: JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude3
   password: amazonskr05
   port: 443
-  server: 52.68.33.227
+  server: 52.194.186.197
   type: ss
 - cipher: aes-256-cfb
   name: JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude4
   password: amazonskr05
   port: 443
-  server: 18.183.178.120
-  type: ss
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude5
-  password: amazonskr05
-  port: 443
-  server: 52.195.182.124
-  type: ss
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude6
-  password: amazonskr05
-  port: 443
-  server: 52.195.8.246
-  type: ss
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude7
-  password: amazonskr05
-  port: 443
-  server: 52.194.218.0
-  type: ss
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc_Claude
-  password: amazonskr05
-  port: 443
-  server: 13.113.219.226
-  type: ss
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude1
-  password: amazonskr05
-  port: 443
-  server: 13.113.190.198
-  type: ss
-- cipher: aes-256-cfb
-  name: JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude2
-  password: amazonskr05
-  port: 443
-  server: 13.112.239.190
+  server: 52.195.215.236
   type: ss
 - cipher: aes-256-cfb
   name: JP_Tokyo_Amazon.com, Inc._OpenAI_Claude
   password: amazonskr05
   port: 443
-  server: 43.206.222.22
+  server: 57.180.31.56
   type: ss
-- name: JP_Tokyo_Kddi Corporation_OpenAI_Claude
-  network: tcp
-  port: 39353
-  server: 46.51.241.212
-  tls: false
-  type: vless
-  uuid: 94884860-51d0-40dc-8e37-8090249edc5f
-- down: '100'
-  name: JP_Tokyo_Oracle Corporation_OpenAI_Claude
-  password: dbe19046-739b-4e39-997c-0da106412b3b
-  port: 443
-  server: tk-007.xiaoxiaobujidao.xyz
-  sni: tk-007.xiaoxiaobujidao.xyz
+- cipher: aes-256-cfb
+  name: KR_Seoul_Kaopu Cloud HK Limited_OpenAI_Claude
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  type: ss
+- name: KR_Yanggok_Cloudflare, Inc._OpenAI_Claude1
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 26627
+  server: kr2.xiaoliyu.cyou
+  sni: kr2.xiaoliyu.cyou
   type: hysteria2
-  up: '100'
-- name: KR_Chuncheon_Oracle Corporation_OpenAI_Claude
-  network: ws
-  port: 8080
-  server: 94.250.246.200
-  servername: a.mifeng.us.kg
+- name: KR_Yanggok_Cloudflare, Inc._OpenAI_Claude2
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 25135
+  server: kr2.xiaoliyu.cyou
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
+- name: KR_Yanggok_Cloudflare, Inc._OpenAI_Claude3
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24870
+  server: kr2.xiaoliyu.cyou
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
+- name: KR_Yanggok_Cloudflare, Inc._OpenAI_Claude4
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 24764
+  server: kr2.xiaoliyu.cyou
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
+- name: KR_Yanggok_Cloudflare, Inc._OpenAI_Claude5
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 22259
+  server: kr2.xiaoliyu.cyou
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
+- name: KR_Yanggok_Cloudflare, Inc._OpenAI_Claude6
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 24359
+  server: kr2.xiaoliyu.cyou
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-128-gcm
+  name: NL_Amsterdam_Datacamp Limited_OpenAI_Claude
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.72
+  type: ss
+- name: NL_Amsterdam_DigitalOcean, LLC_OpenAI_Claude
+  network: tcp
+  port: 8445
+  reality-opts:
+    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+  server: nl.parsroute.net
+  servername: ftp.debian.org
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: KR_Seoul_Amazon.com, Inc._OpenAI_Claude
-  password: amazonskr05
-  port: 443
-  server: 43.201.19.60
-  type: ss
+  uuid: 672b4d6e-46f8-48db-90f5-003d90cb211c
 - cipher: chacha20-ietf-poly1305
   name: NL_Amsterdam_Greenhost BV_OpenAI_Claude
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 45.158.171.66
+  server: 103.104.247.49
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NO_Lorenskog_Microsoft Corporation_OpenAI_Claude1
-  password: M7x1mGNOwhPiRB9jSxZJNy
-  port: 6870
-  server: 51.13.182.236
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NO_Lorenskog_Microsoft Corporation_OpenAI_Claude2
-  password: J0lgxy4mb52CIJ8UUcEgts
-  port: 3089
-  server: 51.13.182.231
-  type: ss
-- cipher: aes-256-gcm
-  name: RU_Moscow_LLC Baxet1
-  password: 76f22412bc0dbdf6
-  port: 16112
-  server: 185.22.153.14
-  type: ss
-- cipher: aes-256-gcm
-  name: RU_Moscow_LLC Baxet2
-  password: 4194ce5b1f36f660
-  port: 16112
-  server: 185.22.152.13
-  type: ss
-- name: SE_Stockholm_Aeza International LTD_OpenAI_Claude
-  password: 5fcc5cce-b0f1-41cc-a4be-63805d2fe7b5
+- name: NL_Amsterdam_The Constant Company, LLC_OpenAI_Claude
+  network: tcp
+  port: 47221
+  reality-opts:
+    public-key: iwsj4xiBztuBQ3I1YsrBBUhnlu7mhhPFozP7bkgaal0
+    short-id: 47ff9b6c
+  server: 95.179.153.250
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3373fe14-47b8-42e5-8a18-7ab3e0dd02b3
+- alterId: 0
+  cipher: none
+  name: PL_Warsaw_ECO-ATMAN_OpenAI_Claude
+  network: ws
+  port: 13896
+  server: 31.186.87.205
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  ws-opts:
+    path: /vmess-argo?ed=2048
+- name: SE_Stockholm_Amazon.com, Inc._OpenAI_Claude
+  network: ws
   port: 443
-  server: alipay-api-au-a-1.testred.xyz
-  sni: alipay-api-au-a-1.testred.xyz
-  type: hysteria2
+  server: visa.cn
+  servername: mht.mhtadayon.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: mht.mhtadayon.ir
+    path: /?ed=2740
 - cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI_Claude1
+  name: SG_Singapore_Amazon Technologies Inc._OpenAI_Claude
   password: amazonskr05
   port: 443
-  server: 18.142.51.90
+  server: 13.229.111.3
   type: ss
 - cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI_Claude2
+  name: SG_Singapore_Amazon Technologies Inc_OpenAI_Claude
   password: amazonskr05
   port: 443
-  server: 13.229.99.83
+  server: 47.129.37.234
   type: ss
 - cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI_Claude3
+  name: SG_Singapore_Amazon.com, Inc._Claude
   password: amazonskr05
   port: 443
-  server: 13.229.248.183
-  type: ss
-- cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI_Claude4
-  password: amazonskr05
-  port: 443
-  server: 13.229.55.99
-  type: ss
-- cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI_Claude5
-  password: amazonskr05
-  port: 443
-  server: 13.229.216.218
-  type: ss
-- cipher: aes-256-cfb
-  name: SG_Singapore_Amazon Technologies Inc._OpenAI_Claude6
-  password: amazonskr05
-  port: 443
-  server: 18.136.123.141
+  server: 52.77.230.72
   type: ss
 - cipher: aes-256-cfb
   name: SG_Singapore_Amazon.com, Inc._OpenAI_Claude1
   password: amazonskr05
   port: 443
-  server: 13.250.30.129
+  server: 18.141.9.206
   type: ss
 - cipher: aes-256-cfb
   name: SG_Singapore_Amazon.com, Inc._OpenAI_Claude2
   password: amazonskr05
   port: 443
-  server: 18.141.235.81
+  server: 13.250.55.231
   type: ss
-- down: '200'
-  name: US_Las Vegas_Hostodo_OpenAI_Claude
-  password: 5fcc5cce-b0f1-41cc-a4be-63805d2fe7b5
-  port: 443
-  server: alipay-api-us-a-3.testred.xyz
-  sni: alipay-api-us-a-3.testred.xyz
+- cipher: aes-256-cfb
+  name: SG_Singapore_BrainStorm Network, Inc_OpenAI_Claude
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: SG_Singapore_Choopa_OpenAI_Claude1
+  network: http
+  port: 80
+  server: 45.76.153.172
+  type: vmess
+  uuid: cc984735-ff03-59e9-8381-be9eb41a7b99
+- alterId: 0
+  cipher: auto
+  name: SG_Singapore_Choopa_OpenAI_Claude2
+  network: http
+  port: 80
+  server: 45.76.153.172
+  type: vmess
+  uuid: e9883330-bcd0-5b85-81e2-857ed9a062a4
+- name: SG_Singapore_Oracle Corporation_OpenAI_Claude1
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 25925
+  server: sg3.xiaoliyu.cyou
+  sni: sg3.xiaoliyu.cyou
   type: hysteria2
-  up: '200'
-- cipher: aes-256-gcm
-  name: US_Los Angeles_GTHost_OpenAI_Claude1
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.114.114.69
-  type: ss
-- cipher: aes-256-gcm
-  name: US_Los Angeles_GTHost_OpenAI_Claude2
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 38.114.114.69
-  type: ss
-- cipher: aes-256-gcm
-  name: US_Los Angeles_GTHost_OpenAI_Claude3
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.114.114.69
-  type: ss
-- cipher: aes-256-gcm
-  name: US_Los Angeles_GTHost_OpenAI_Claude4
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.114.114.69
-  type: ss
-- cipher: aes-256-gcm
-  name: US_Los Angeles_GTHost_OpenAI_Claude5
-  password: KixLvKzwjekG00rm
+- name: SG_Singapore_Oracle Corporation_OpenAI_Claude2
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 22221
+  server: sg3.xiaoliyu.cyou
+  sni: sg3.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Buffalo_HostPapa_OpenAI_Claude1
+  network: ws
+  port: 80
+  server: 45.149.12.128
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: US_Buffalo_HostPapa_OpenAI_Claude2
+  network: ws
+  port: 80
+  server: 198.41.208.231
+  servername: cc.ailicf.us.kg
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- name: US_Buffalo_HostPapa_OpenAI_Claude3
+  network: ws
+  port: 80
+  server: 198.41.204.17
+  servername: cc.ailicf.us.kg
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- name: US_Buffalo_HostPapa_OpenAI_Claude4
+  network: ws
+  port: 80
+  server: 172.67.27.46
+  servername: cc.ailicf.us.kg
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /b5cdabf0-e04
+- name: US_Buffalo_HostPapa_OpenAI_Claude5
+  network: ws
+  port: 80
+  server: 108.162.198.43
+  servername: cc.ailicf.us.kg
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- name: US_Buffalo_HostPapa_OpenAI_Claude6
+  network: ws
+  port: 80
+  server: 190.93.246.84
+  servername: cc.ailicf.us.kg
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- name: US_Los Angeles_HostPapa_OpenAI
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 24703
+  server: us1.xiaoliyu.cyou
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude1
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 23317
+  server: us1.xiaoliyu.cyou
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude2
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 25619
+  server: us1.xiaoliyu.cyou
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude3
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 22831
+  server: us1.xiaoliyu.cyou
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude4
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 24701
+  server: us1.xiaoliyu.cyou
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude5
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 26783
+  server: us1.xiaoliyu.cyou
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude6
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 26006
+  server: us2.xiaoliyu.cyou
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude7
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 26032
+  server: us2.xiaoliyu.cyou
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- name: US_Los Angeles_HostPapa_OpenAI_Claude8
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 26592
+  server: us2.xiaoliyu.cyou
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- name: US_New York_Alice Networks LTD_OpenAI_Claude
+  password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
   port: 8080
-  server: 38.114.114.69
-  type: ss
-- cipher: aes-256-gcm
-  name: US_Los Angeles_GTHost_OpenAI_Claude6
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.114.114.69
-  type: ss
-- name: US_Los Angeles_HostPapa_OpenAI_Claude
-  password: 5fcc5cce-b0f1-41cc-a4be-63805d2fe7b5
-  port: 443
-  server: alipay-api-us-a-2.testred.xyz
-  sni: alipay-api-us-a-2.testred.xyz
+  server: ush2.youxuan.wiki
+  sni: ush2.youxuan.wiki
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: US_Los Angeles_Multacom Corporation_OpenAI_Claude
-  network: ws
-  port: 8443
-  server: ff.kncc2.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 89c344f2-096c-445c-b629-9b15152f38e7
-  ws-opts:
-    headers:
-      Host: ff.kncc2.top
-    path: /89c344f2
-- alterId: 0
-  cipher: auto
-  name: US_New York_Cloudflare, Inc._OpenAI_Claude
-  network: ws
-  port: 8880
-  server: yx1.changyouVPN.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 85c7eba1-dfba-4f3e-9f7a-833fa729dc19
-  ws-opts:
-    headers:
-      Host: yg.changyouVPN.top
-    path: /?ed=2048
-- name: US_North Bergen_ReadyDedis, LLC_OpenAI_Claude
-  password: 5fcc5cce-b0f1-41cc-a4be-63805d2fe7b5
-  port: 443
-  server: alipay-api-us-a-1.testred.xyz
-  sni: alipay-api-us-a-1.testred.xyz
-  type: hysteria2
-- down: '100'
-  name: US_Phoenix_Oracle Corporation_OpenAI_Claude
-  password: dbe19046-739b-4e39-997c-0da106412b3b
-  port: 443
-  server: px-001.xiaoxiaobujidao.xyz
-  sni: px-001.xiaoxiaobujidao.xyz
-  type: hysteria2
-  up: '100'
-- cipher: aes-256-cfb
-  name: US_Portland_Amazon.com, Inc._OpenAI_Claude1
-  password: amazonskr05
-  port: 443
-  server: 18.236.85.108
-  type: ss
-- cipher: aes-256-cfb
-  name: US_Portland_Amazon.com, Inc._OpenAI_Claude2
-  password: amazonskr05
-  port: 443
-  server: 52.27.15.25
-  type: ss
-- cipher: aes-256-cfb
-  name: US_Portland_Amazon.com, Inc._OpenAI_Claude3
-  password: amazonskr05
-  port: 443
-  server: 52.41.3.89
-  type: ss
-- name: US_The Dalles_Google LLC_OpenAI_Claude
+- name: US_North Bergen_DigitalOcean, LLC_OpenAI_Claude1
   network: ws
   port: 443
-  server: 198.41.192.239
-  servername: usb.warpo.me
-  tls: true
-  type: vless
-  uuid: e7934134-5395-47a7-bd90-f68a467e3971
-  ws-opts:
-    headers:
-      Host: usb.warpo.me
-    path: /bing
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_1
-  network: ws
-  port: 8880
-  server: s1.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-1-101-250.s1.cn-db.top
-    path: /dabai.in172.67.97.168
-- name: github.com/Ruk1ng001_2
-  network: ws
-  port: 443
-  server: bestcf.liuli3wan2.me
-  servername: orsj1.1541241.xyz
-  tls: true
-  type: vless
-  uuid: e042ac3d-6de5-49c6-984c-beaf976f8242
-  ws-opts:
-    headers:
-      Host: orsj1.1541241.xyz
-    path: /ymmzws
-- name: github.com/Ruk1ng001_3
-  network: ws
-  port: 443
-  server: cdncdncdn.aikunapp.com
-  servername: r-RzxbHQ5ZFUFxEAZj.sm-node.com
+  server: wear.net
+  servername: wear.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 96cad374-7573-4463-8804-4665c2c3d932
+  uuid: 046fd332-80a6-43b0-91b0-7238a1dfc36c
   ws-opts:
     headers:
-      Host: cdn-us.sm-node.com
-    path: /vless_ws/smjc/index?ed=8192
-- name: ❓_🇺🇸_💻_github.com/Ruk1ng001_1
-  network: ws
-  port: 80
-  server: 167.82.1.136
-  servername: teleirani.ir
-  tls: false
-  type: vless
-  uuid: 253ef561-9e57-4336-befd-878ddd30df01
-  ws-opts:
-    headers:
-      Host: teleirani.ir
+      Host: aw035.ir
     path: /?ed=2048
-- name: ❓_🇺🇸_💻_github.com/Ruk1ng001_2
+- name: US_North Bergen_DigitalOcean, LLC_OpenAI_Claude2
   network: ws
-  port: 80
-  server: 167.82.1.111
-  servername: teleirani.ir
-  tls: false
+  port: 443
+  server: 199.232.214.133
+  servername: wear.net
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 253ef561-9e57-4336-befd-878ddd30df01
+  uuid: 046fd332-80a6-43b0-91b0-7238a1dfc36c
   ws-opts:
     headers:
-      Host: teleirani.ir
+      Host: aw035.ir
     path: /?ed=2048
-- name: ❓_🇺🇸_💻_github.com/Ruk1ng001_3
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  servername: 49.org
-  tls: false
+- cipher: aes-256-cfb
+  name: US_Portland_Amazon.com, Inc._OpenAI_Claude
+  password: amazonskr05
+  port: 443
+  server: 52.41.168.231
+  type: ss
+- name: US_Reston_OVH SAS_OpenAI_Claude
+  port: 443
+  server: 147135010072.sec21org.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 7233f65b-8ec1-46cd-8e87-1986948d0326
-  ws-opts:
-    headers:
-      Host: 49.org
-    path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
+  udp: true
+  uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+- name: US_San Francisco_Microsoft Corporation_OpenAI_Claude
+  network: tcp
+  port: 2046
+  reality-opts:
+    public-key: P0t-7rDdRNOg0bHvo-S_VgNWzcmXb5cB7b6qA1vtfE4
+    short-id: d4fdce164f84219c
+  server: 40.83.200.62
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ba00fea2-9c5b-46aa-895d-2e189715c374
 proxy-groups:
 - name: PROXY
   type: select
@@ -548,68 +710,91 @@ proxy-groups:
   type: select
   filter: .*
   proxies:
-  - 127.0.0.1_OpenAI_Claude1
-  - 127.0.0.1_OpenAI_Claude2
-  - 127.0.0.1_OpenAI_Claude3
-  - 218.237.185.230_OpenAI_Claude
-  - 221.139.79.20_OpenAI
-  - 221.139.79.41_OpenAI_Claude
-  - DE_Düsseldorf_WIIT AG_OpenAI_Claude
-  - DE_Nuremberg_DASABO OU_OpenAI_Claude
-  - FR_Paris_Amazon Technologies Inc._OpenAI_Claude
-  - FR_Paris_Redheberg SAS_OpenAI_Claude
-  - GB_London_BrainStorm Network, Inc_OpenAI_Claude
+  - 15.237.167.219_OpenAI
+  - 213.35.120.43_OpenAI_Claude
+  - 38.114.123.245_OpenAI_Claude
+  - AU_Sydney_DigitalOcean, LLC_OpenAI_Claude
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude1
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude2
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude3
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude1
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude2
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude3
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude4
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude5
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude6
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude7
+  - EE_Tallinn_RJ Network OU_Claude
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude1
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude2
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude3
+  - FR_Paris_Cloudflare, Inc._Claude1
+  - FR_Paris_Cloudflare, Inc._Claude2
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude1
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude2
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude3
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude4
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude5
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude6
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude7
+  - FR_Paris_Oracle Corporation_OpenAI_Claude1
+  - FR_Paris_Oracle Corporation_OpenAI_Claude2
+  - FR_Paris_Oracle Corporation_OpenAI_Claude3
+  - GB_London_Amazon Technologies Inc._Claude
+  - GB_London_Amazon Technologies Inc._OpenAI_Claude
+  - IE_Dublin_HostPapa_OpenAI_Claude1
+  - IE_Dublin_HostPapa_OpenAI_Claude2
+  - JP_Shinagawa_The Constant Company_OpenAI_Claude
+  - JP_Togoshi_The Constant Company_OpenAI_Claude
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude1
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude2
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude3
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude4
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude5
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude6
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude7
-  - JP_Tokyo_Amazon Technologies Inc_Claude
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude1
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude2
   - JP_Tokyo_Amazon.com, Inc._OpenAI_Claude
-  - JP_Tokyo_Kddi Corporation_OpenAI_Claude
-  - JP_Tokyo_Oracle Corporation_OpenAI_Claude
-  - KR_Chuncheon_Oracle Corporation_OpenAI_Claude
-  - KR_Seoul_Amazon.com, Inc._OpenAI_Claude
+  - KR_Seoul_Kaopu Cloud HK Limited_OpenAI_Claude
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude1
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude2
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude3
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude4
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude5
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude6
+  - NL_Amsterdam_Datacamp Limited_OpenAI_Claude
+  - NL_Amsterdam_DigitalOcean, LLC_OpenAI_Claude
   - NL_Amsterdam_Greenhost BV_OpenAI_Claude
-  - NO_Lorenskog_Microsoft Corporation_OpenAI_Claude1
-  - NO_Lorenskog_Microsoft Corporation_OpenAI_Claude2
-  - RU_Moscow_LLC Baxet1
-  - RU_Moscow_LLC Baxet2
-  - SE_Stockholm_Aeza International LTD_OpenAI_Claude
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude1
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude2
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude3
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude4
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude5
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude6
+  - NL_Amsterdam_The Constant Company, LLC_OpenAI_Claude
+  - PL_Warsaw_ECO-ATMAN_OpenAI_Claude
+  - SE_Stockholm_Amazon.com, Inc._OpenAI_Claude
+  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude
+  - SG_Singapore_Amazon Technologies Inc_OpenAI_Claude
+  - SG_Singapore_Amazon.com, Inc._Claude
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude1
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude2
-  - US_Las Vegas_Hostodo_OpenAI_Claude
-  - US_Los Angeles_GTHost_OpenAI_Claude1
-  - US_Los Angeles_GTHost_OpenAI_Claude2
-  - US_Los Angeles_GTHost_OpenAI_Claude3
-  - US_Los Angeles_GTHost_OpenAI_Claude4
-  - US_Los Angeles_GTHost_OpenAI_Claude5
-  - US_Los Angeles_GTHost_OpenAI_Claude6
-  - US_Los Angeles_HostPapa_OpenAI_Claude
-  - US_Los Angeles_Multacom Corporation_OpenAI_Claude
-  - US_New York_Cloudflare, Inc._OpenAI_Claude
-  - US_North Bergen_ReadyDedis, LLC_OpenAI_Claude
-  - US_Phoenix_Oracle Corporation_OpenAI_Claude
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude1
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude2
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude3
-  - US_The Dalles_Google LLC_OpenAI_Claude
-  - github.com/Ruk1ng001_1
-  - github.com/Ruk1ng001_2
-  - github.com/Ruk1ng001_3
-  - ❓_🇺🇸_💻_github.com/Ruk1ng001_1
-  - ❓_🇺🇸_💻_github.com/Ruk1ng001_2
-  - ❓_🇺🇸_💻_github.com/Ruk1ng001_3
+  - SG_Singapore_BrainStorm Network, Inc_OpenAI_Claude
+  - SG_Singapore_Choopa_OpenAI_Claude1
+  - SG_Singapore_Choopa_OpenAI_Claude2
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude1
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude2
+  - US_Buffalo_HostPapa_OpenAI_Claude1
+  - US_Buffalo_HostPapa_OpenAI_Claude2
+  - US_Buffalo_HostPapa_OpenAI_Claude3
+  - US_Buffalo_HostPapa_OpenAI_Claude4
+  - US_Buffalo_HostPapa_OpenAI_Claude5
+  - US_Buffalo_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI
+  - US_Los Angeles_HostPapa_OpenAI_Claude1
+  - US_Los Angeles_HostPapa_OpenAI_Claude2
+  - US_Los Angeles_HostPapa_OpenAI_Claude3
+  - US_Los Angeles_HostPapa_OpenAI_Claude4
+  - US_Los Angeles_HostPapa_OpenAI_Claude5
+  - US_Los Angeles_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI_Claude7
+  - US_Los Angeles_HostPapa_OpenAI_Claude8
+  - US_New York_Alice Networks LTD_OpenAI_Claude
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude1
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude2
+  - US_Portland_Amazon.com, Inc._OpenAI_Claude
+  - US_Reston_OVH SAS_OpenAI_Claude
+  - US_San Francisco_Microsoft Corporation_OpenAI_Claude
 - name: Fallback
   type: fallback
   url: http://www.google.com/generate_204
@@ -626,7 +811,7 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - DIRECT
+  - KR_Seoul_Kaopu Cloud HK Limited_OpenAI_Claude
   filter: (?i)港|HK|HongKong|hong kong
 - name: TW
   type: url-test
@@ -642,19 +827,13 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
+  - JP_Shinagawa_The Constant Company_OpenAI_Claude
+  - JP_Togoshi_The Constant Company_OpenAI_Claude
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude1
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude2
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude3
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude4
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude5
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude6
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude7
-  - JP_Tokyo_Amazon Technologies Inc_Claude
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude1
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude2
   - JP_Tokyo_Amazon.com, Inc._OpenAI_Claude
-  - JP_Tokyo_Kddi Corporation_OpenAI_Claude
-  - JP_Tokyo_Oracle Corporation_OpenAI_Claude
   filter: (?i)日|东京|大阪|JP|Japan|Tokyo|Osaka|Saitama
 - name: SG
   type: url-test
@@ -662,14 +841,16 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude1
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude2
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude3
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude4
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude5
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude6
+  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude
+  - SG_Singapore_Amazon Technologies Inc_OpenAI_Claude
+  - SG_Singapore_Amazon.com, Inc._Claude
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude1
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude2
+  - SG_Singapore_BrainStorm Network, Inc_OpenAI_Claude
+  - SG_Singapore_Choopa_OpenAI_Claude1
+  - SG_Singapore_Choopa_OpenAI_Claude2
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude1
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude2
   filter: (?i)新|狮城|SG|Singapore
 - name: US
   type: url-test
@@ -677,22 +858,27 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - US_Las Vegas_Hostodo_OpenAI_Claude
-  - US_Los Angeles_GTHost_OpenAI_Claude1
-  - US_Los Angeles_GTHost_OpenAI_Claude2
-  - US_Los Angeles_GTHost_OpenAI_Claude3
-  - US_Los Angeles_GTHost_OpenAI_Claude4
-  - US_Los Angeles_GTHost_OpenAI_Claude5
-  - US_Los Angeles_GTHost_OpenAI_Claude6
-  - US_Los Angeles_HostPapa_OpenAI_Claude
-  - US_Los Angeles_Multacom Corporation_OpenAI_Claude
-  - US_New York_Cloudflare, Inc._OpenAI_Claude
-  - US_North Bergen_ReadyDedis, LLC_OpenAI_Claude
-  - US_Phoenix_Oracle Corporation_OpenAI_Claude
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude1
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude2
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude3
-  - US_The Dalles_Google LLC_OpenAI_Claude
+  - US_Buffalo_HostPapa_OpenAI_Claude1
+  - US_Buffalo_HostPapa_OpenAI_Claude2
+  - US_Buffalo_HostPapa_OpenAI_Claude3
+  - US_Buffalo_HostPapa_OpenAI_Claude4
+  - US_Buffalo_HostPapa_OpenAI_Claude5
+  - US_Buffalo_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI
+  - US_Los Angeles_HostPapa_OpenAI_Claude1
+  - US_Los Angeles_HostPapa_OpenAI_Claude2
+  - US_Los Angeles_HostPapa_OpenAI_Claude3
+  - US_Los Angeles_HostPapa_OpenAI_Claude4
+  - US_Los Angeles_HostPapa_OpenAI_Claude5
+  - US_Los Angeles_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI_Claude7
+  - US_Los Angeles_HostPapa_OpenAI_Claude8
+  - US_New York_Alice Networks LTD_OpenAI_Claude
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude1
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude2
+  - US_Portland_Amazon.com, Inc._OpenAI_Claude
+  - US_Reston_OVH SAS_OpenAI_Claude
+  - US_San Francisco_Microsoft Corporation_OpenAI_Claude
   filter: (?i)美|洛杉矶|芝加哥|西雅图|America|US|United.*?States
 - name: OpenAI
   type: url-test
@@ -700,59 +886,86 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 127.0.0.1_OpenAI_Claude1
-  - 127.0.0.1_OpenAI_Claude2
-  - 127.0.0.1_OpenAI_Claude3
-  - 218.237.185.230_OpenAI_Claude
-  - 221.139.79.20_OpenAI
-  - 221.139.79.41_OpenAI_Claude
-  - DE_Düsseldorf_WIIT AG_OpenAI_Claude
-  - DE_Nuremberg_DASABO OU_OpenAI_Claude
-  - FR_Paris_Amazon Technologies Inc._OpenAI_Claude
-  - FR_Paris_Redheberg SAS_OpenAI_Claude
-  - GB_London_BrainStorm Network, Inc_OpenAI_Claude
+  - 15.237.167.219_OpenAI
+  - 213.35.120.43_OpenAI_Claude
+  - 38.114.123.245_OpenAI_Claude
+  - AU_Sydney_DigitalOcean, LLC_OpenAI_Claude
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude1
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude2
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude3
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude1
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude2
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude3
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude4
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude5
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude6
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude7
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude1
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude2
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude3
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude1
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude2
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude3
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude4
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude5
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude6
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude7
+  - FR_Paris_Oracle Corporation_OpenAI_Claude1
+  - FR_Paris_Oracle Corporation_OpenAI_Claude2
+  - FR_Paris_Oracle Corporation_OpenAI_Claude3
+  - GB_London_Amazon Technologies Inc._OpenAI_Claude
+  - IE_Dublin_HostPapa_OpenAI_Claude1
+  - IE_Dublin_HostPapa_OpenAI_Claude2
+  - JP_Shinagawa_The Constant Company_OpenAI_Claude
+  - JP_Togoshi_The Constant Company_OpenAI_Claude
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude1
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude2
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude3
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude4
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude5
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude6
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude7
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude1
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude2
   - JP_Tokyo_Amazon.com, Inc._OpenAI_Claude
-  - JP_Tokyo_Kddi Corporation_OpenAI_Claude
-  - JP_Tokyo_Oracle Corporation_OpenAI_Claude
-  - KR_Chuncheon_Oracle Corporation_OpenAI_Claude
-  - KR_Seoul_Amazon.com, Inc._OpenAI_Claude
+  - KR_Seoul_Kaopu Cloud HK Limited_OpenAI_Claude
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude1
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude2
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude3
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude4
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude5
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude6
+  - NL_Amsterdam_Datacamp Limited_OpenAI_Claude
+  - NL_Amsterdam_DigitalOcean, LLC_OpenAI_Claude
   - NL_Amsterdam_Greenhost BV_OpenAI_Claude
-  - NO_Lorenskog_Microsoft Corporation_OpenAI_Claude1
-  - NO_Lorenskog_Microsoft Corporation_OpenAI_Claude2
-  - SE_Stockholm_Aeza International LTD_OpenAI_Claude
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude1
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude2
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude3
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude4
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude5
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude6
+  - NL_Amsterdam_The Constant Company, LLC_OpenAI_Claude
+  - PL_Warsaw_ECO-ATMAN_OpenAI_Claude
+  - SE_Stockholm_Amazon.com, Inc._OpenAI_Claude
+  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude
+  - SG_Singapore_Amazon Technologies Inc_OpenAI_Claude
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude1
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude2
-  - US_Las Vegas_Hostodo_OpenAI_Claude
-  - US_Los Angeles_GTHost_OpenAI_Claude1
-  - US_Los Angeles_GTHost_OpenAI_Claude2
-  - US_Los Angeles_GTHost_OpenAI_Claude3
-  - US_Los Angeles_GTHost_OpenAI_Claude4
-  - US_Los Angeles_GTHost_OpenAI_Claude5
-  - US_Los Angeles_GTHost_OpenAI_Claude6
-  - US_Los Angeles_HostPapa_OpenAI_Claude
-  - US_Los Angeles_Multacom Corporation_OpenAI_Claude
-  - US_New York_Cloudflare, Inc._OpenAI_Claude
-  - US_North Bergen_ReadyDedis, LLC_OpenAI_Claude
-  - US_Phoenix_Oracle Corporation_OpenAI_Claude
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude1
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude2
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude3
-  - US_The Dalles_Google LLC_OpenAI_Claude
+  - SG_Singapore_BrainStorm Network, Inc_OpenAI_Claude
+  - SG_Singapore_Choopa_OpenAI_Claude1
+  - SG_Singapore_Choopa_OpenAI_Claude2
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude1
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude2
+  - US_Buffalo_HostPapa_OpenAI_Claude1
+  - US_Buffalo_HostPapa_OpenAI_Claude2
+  - US_Buffalo_HostPapa_OpenAI_Claude3
+  - US_Buffalo_HostPapa_OpenAI_Claude4
+  - US_Buffalo_HostPapa_OpenAI_Claude5
+  - US_Buffalo_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI
+  - US_Los Angeles_HostPapa_OpenAI_Claude1
+  - US_Los Angeles_HostPapa_OpenAI_Claude2
+  - US_Los Angeles_HostPapa_OpenAI_Claude3
+  - US_Los Angeles_HostPapa_OpenAI_Claude4
+  - US_Los Angeles_HostPapa_OpenAI_Claude5
+  - US_Los Angeles_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI_Claude7
+  - US_Los Angeles_HostPapa_OpenAI_Claude8
+  - US_New York_Alice Networks LTD_OpenAI_Claude
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude1
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude2
+  - US_Portland_Amazon.com, Inc._OpenAI_Claude
+  - US_Reston_OVH SAS_OpenAI_Claude
+  - US_San Francisco_Microsoft Corporation_OpenAI_Claude
   filter: (?i)OpenAI
 - name: Claude
   type: url-test
@@ -760,59 +973,89 @@ proxy-groups:
   interval: 600
   tolerance: 500
   proxies:
-  - 127.0.0.1_OpenAI_Claude1
-  - 127.0.0.1_OpenAI_Claude2
-  - 127.0.0.1_OpenAI_Claude3
-  - 218.237.185.230_OpenAI_Claude
-  - 221.139.79.41_OpenAI_Claude
-  - DE_Düsseldorf_WIIT AG_OpenAI_Claude
-  - DE_Nuremberg_DASABO OU_OpenAI_Claude
-  - FR_Paris_Amazon Technologies Inc._OpenAI_Claude
-  - FR_Paris_Redheberg SAS_OpenAI_Claude
-  - GB_London_BrainStorm Network, Inc_OpenAI_Claude
+  - 213.35.120.43_OpenAI_Claude
+  - 38.114.123.245_OpenAI_Claude
+  - AU_Sydney_DigitalOcean, LLC_OpenAI_Claude
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude1
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude2
+  - BR_São Paulo_Cloudflare, Inc._OpenAI_Claude3
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude1
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude2
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude3
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude4
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude5
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude6
+  - DE_Nuremberg_powered by ANX_OpenAI_Claude7
+  - EE_Tallinn_RJ Network OU_Claude
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude1
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude2
+  - ES_Madrid_Oracle Corporation_OpenAI_Claude3
+  - FR_Paris_Cloudflare, Inc._Claude1
+  - FR_Paris_Cloudflare, Inc._Claude2
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude1
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude2
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude3
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude4
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude5
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude6
+  - FR_Paris_Cloudflare, Inc._OpenAI_Claude7
+  - FR_Paris_Oracle Corporation_OpenAI_Claude1
+  - FR_Paris_Oracle Corporation_OpenAI_Claude2
+  - FR_Paris_Oracle Corporation_OpenAI_Claude3
+  - GB_London_Amazon Technologies Inc._Claude
+  - GB_London_Amazon Technologies Inc._OpenAI_Claude
+  - IE_Dublin_HostPapa_OpenAI_Claude1
+  - IE_Dublin_HostPapa_OpenAI_Claude2
+  - JP_Shinagawa_The Constant Company_OpenAI_Claude
+  - JP_Togoshi_The Constant Company_OpenAI_Claude
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude1
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude2
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude3
   - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude4
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude5
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude6
-  - JP_Tokyo_Amazon Technologies Inc._OpenAI_Claude7
-  - JP_Tokyo_Amazon Technologies Inc_Claude
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude1
-  - JP_Tokyo_Amazon Technologies Inc_OpenAI_Claude2
   - JP_Tokyo_Amazon.com, Inc._OpenAI_Claude
-  - JP_Tokyo_Kddi Corporation_OpenAI_Claude
-  - JP_Tokyo_Oracle Corporation_OpenAI_Claude
-  - KR_Chuncheon_Oracle Corporation_OpenAI_Claude
-  - KR_Seoul_Amazon.com, Inc._OpenAI_Claude
+  - KR_Seoul_Kaopu Cloud HK Limited_OpenAI_Claude
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude1
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude2
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude3
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude4
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude5
+  - KR_Yanggok_Cloudflare, Inc._OpenAI_Claude6
+  - NL_Amsterdam_Datacamp Limited_OpenAI_Claude
+  - NL_Amsterdam_DigitalOcean, LLC_OpenAI_Claude
   - NL_Amsterdam_Greenhost BV_OpenAI_Claude
-  - NO_Lorenskog_Microsoft Corporation_OpenAI_Claude1
-  - NO_Lorenskog_Microsoft Corporation_OpenAI_Claude2
-  - SE_Stockholm_Aeza International LTD_OpenAI_Claude
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude1
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude2
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude3
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude4
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude5
-  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude6
+  - NL_Amsterdam_The Constant Company, LLC_OpenAI_Claude
+  - PL_Warsaw_ECO-ATMAN_OpenAI_Claude
+  - SE_Stockholm_Amazon.com, Inc._OpenAI_Claude
+  - SG_Singapore_Amazon Technologies Inc._OpenAI_Claude
+  - SG_Singapore_Amazon Technologies Inc_OpenAI_Claude
+  - SG_Singapore_Amazon.com, Inc._Claude
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude1
   - SG_Singapore_Amazon.com, Inc._OpenAI_Claude2
-  - US_Las Vegas_Hostodo_OpenAI_Claude
-  - US_Los Angeles_GTHost_OpenAI_Claude1
-  - US_Los Angeles_GTHost_OpenAI_Claude2
-  - US_Los Angeles_GTHost_OpenAI_Claude3
-  - US_Los Angeles_GTHost_OpenAI_Claude4
-  - US_Los Angeles_GTHost_OpenAI_Claude5
-  - US_Los Angeles_GTHost_OpenAI_Claude6
-  - US_Los Angeles_HostPapa_OpenAI_Claude
-  - US_Los Angeles_Multacom Corporation_OpenAI_Claude
-  - US_New York_Cloudflare, Inc._OpenAI_Claude
-  - US_North Bergen_ReadyDedis, LLC_OpenAI_Claude
-  - US_Phoenix_Oracle Corporation_OpenAI_Claude
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude1
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude2
-  - US_Portland_Amazon.com, Inc._OpenAI_Claude3
-  - US_The Dalles_Google LLC_OpenAI_Claude
+  - SG_Singapore_BrainStorm Network, Inc_OpenAI_Claude
+  - SG_Singapore_Choopa_OpenAI_Claude1
+  - SG_Singapore_Choopa_OpenAI_Claude2
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude1
+  - SG_Singapore_Oracle Corporation_OpenAI_Claude2
+  - US_Buffalo_HostPapa_OpenAI_Claude1
+  - US_Buffalo_HostPapa_OpenAI_Claude2
+  - US_Buffalo_HostPapa_OpenAI_Claude3
+  - US_Buffalo_HostPapa_OpenAI_Claude4
+  - US_Buffalo_HostPapa_OpenAI_Claude5
+  - US_Buffalo_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI_Claude1
+  - US_Los Angeles_HostPapa_OpenAI_Claude2
+  - US_Los Angeles_HostPapa_OpenAI_Claude3
+  - US_Los Angeles_HostPapa_OpenAI_Claude4
+  - US_Los Angeles_HostPapa_OpenAI_Claude5
+  - US_Los Angeles_HostPapa_OpenAI_Claude6
+  - US_Los Angeles_HostPapa_OpenAI_Claude7
+  - US_Los Angeles_HostPapa_OpenAI_Claude8
+  - US_New York_Alice Networks LTD_OpenAI_Claude
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude1
+  - US_North Bergen_DigitalOcean, LLC_OpenAI_Claude2
+  - US_Portland_Amazon.com, Inc._OpenAI_Claude
+  - US_Reston_OVH SAS_OpenAI_Claude
+  - US_San Francisco_Microsoft Corporation_OpenAI_Claude
   filter: (?i)Claude
 rules:
 - RULE-SET,ads,REJECT
